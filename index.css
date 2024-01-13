@@ -7,6 +7,7 @@ p, a {
 }
 h1, h3 {
     text-align: center;
+    margin-bottom: 0px;
 }
 .titulo {
     color: #ff006a;
@@ -60,12 +61,17 @@ p span {
     h3 {
         font-size: 20px;
     }
-    img {
+    div.imagen img {
         width: 500px;
     }
     p {
         margin-left: 20px;
         font-size: 20px;
+    }
+    img.logo {
+        width: 15%;
+        margin: 0 auto;
+        display: flex;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -84,10 +90,15 @@ p span {
         order: 0;
         margin-bottom: 0;
     }
-    img {
+    div.imagen img {
         width: 325px;
     }
     .contacto p{
         font-size: 14px;
+    }
+    img.logo {
+        width: 45%;
+        margin: 0 auto;
+        display: flex;
     }
 }
