@@ -38,6 +38,7 @@ h3  {
     order: 1;
     margin-right: 20px; 
     margin-bottom: 20px;
+    user-select: none;
 }
 
 .texto {
@@ -63,6 +64,7 @@ p span {
     }
     div.imagen img {
         width: 500px;
+        user-select: none;
     }
     p {
         margin-left: 20px;
@@ -72,6 +74,7 @@ p span {
         width: 15%;
         margin: 0 auto;
         display: flex;
+        user-select: none;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -92,6 +95,7 @@ p span {
     }
     div.imagen img {
         width: 325px;
+        user-select: none;
     }
     .contacto p{
         font-size: 14px;
@@ -100,5 +104,6 @@ p span {
         width: 45%;
         margin: 0 auto;
         display: flex;
+        user-select: none;
     }
 }
